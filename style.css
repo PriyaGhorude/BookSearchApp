@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(49, 47, 47);
+    background-image: url(images/Book_logo.jpg);
+ }
+ #content{
+     color: white;
+ }
+ #result{
+     color: white;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .nav_bar{   /*Styling nav bar*/
+    height:15vh;
+    line-height: 15vh;
+    font-size: 70px;
+    color:white;
+    text-align: center;
+    background-color: black;
+    padding-right: 10px;
+}
+#loginbox{      /*Login Form*/
+    width:480px;
+    height:500px;
+    background-color: rgb(11, 26, 37);
+    border-radius: 162px;
+    margin: auto;
+    position: relative;
+    float: right;
+    top:8vh;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border:1px solid white;
+}
+#signupbox{    /*Styling Signup form*/
+    visibility: hidden;
+    width:400px;
+    height:350px;
+    background-color: rgb(29, 28, 28);
+    border-radius: 25px;
+    border:2px solid white;
+    box-shadow: 10px 10px 5px rgb(68, 61, 61);
+    margin: auto;
+    position: relative;
+    top:-38vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#name{
+    font-size: 30px;
+}
+#password{
+    font-size: 30px;
+}
+.up{
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.login{
+    font-family: 'Cabin';
+    color: rgb(49, 186, 204);
+    text-align: center;
+    font-size:45px;
+    font-weight: bolder;
+}
+.sgnup{
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    color:green;
+    font-size:40px;
+    font-weight: bolder;
+}
+#submit,#creation,#signup,#submit1{
+    background-color: rgb(241, 236, 238);
+    border:1px solid white;
+    font-size: x-large;
+    width:180px;
+    height:35px;
+    outline: none;
+    border-radius: 25px;
+}
+button{
+    margin-bottom: 30px;
+}
